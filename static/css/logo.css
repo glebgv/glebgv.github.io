@@ -1,0 +1,17 @@
+
+
+.logo img,
+.logo {
+  width: 60px !important;      /* Размер логотипа */
+  height: 60px !important;
+  border-radius: 50% !important; /* Круг */
+  object-fit: cover !important;  /* Заполнение без искажений */
+  overflow: hidden;
+}
+
+/* Для контейнера, если нужно */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

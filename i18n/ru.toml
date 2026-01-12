@@ -1,0 +1,11 @@
+[read_more]
+other = "Читать далее"
+
+[excerpt_more]
+other = "Читать далее"  # Или "Подробнее"
+
+[back_to_top]
+other = "Наверх"
+
+[btn_back]
+other = "Назад"

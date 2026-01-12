@@ -1,0 +1,35 @@
+baseURL = "https://glebgv.github.io/"
+languageCode = "ru-ru"
+title = "GLEBGV: Вещаю о том, что изучаю"
+theme = "hugo-clarity"
+
+# Основные параметры
+defaultContentLanguage = "ru"
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Markdown параметры
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    noClasses = true
+    style = "monokai"
+    tabWidth = 2
+
+# Таксономии (категории и теги)
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Outputs
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[params]
+  logo = "logos/logo.png"
+  centerLogo = false
+  enforceDarkMode = false
+    customCSS = ["css/about-carousel.css", "css/logo.css"]

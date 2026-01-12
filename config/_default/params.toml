@@ -1,0 +1,10 @@
+[params]
+logo = "logos/logo.png"
+centerLogo = false  # true — по центру, false — слева (по умолчанию)
+enforceDarkMode = true 
+
+author = "Глеб"
+description = "Блог о криптографии, блокчейне, DevOps и экспериментах"
+subtitle = "Блог о том, что изучаю"
+
+

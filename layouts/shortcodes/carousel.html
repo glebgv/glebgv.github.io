@@ -1,0 +1,57 @@
+<div class="about-carousel" id="carousel-{{ .Get 0 | default "default" }}">
+  <div class="carousel-track">
+    <div class="carousel-slide active">
+      <img src="/about/about.jpg" alt="В Екб">
+      <div class="slide-caption">В Екб</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about2.jpg" alt="С Семьёй">
+      <div class="slide-caption">С Семьёй</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about3.jpg" alt="Лето, 5 лет назад">
+      <div class="slide-caption">Лето, 5 лет назад</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about4.jpg" alt="В походе, ЛО">
+      <div class="slide-caption">В походе, ЛО</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about5.jpg" alt="Селфак в рабочие будни">
+      <div class="slide-caption">Селфак в рабочие будни</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about6.jpg" alt="Молодой, зелёный">
+      <div class="slide-caption">Молодой, зелёный</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about7.jpg" alt="Петрога">
+      <div class="slide-caption">Петрога</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about8.jpg" alt="Гонка ГТО">
+      <div class="slide-caption">Гонка ГТО</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about9.jpg" alt="Секретное фото">
+      <div class="slide-caption">Секретное фото</div>
+    </div>
+    <div class="carousel-slide">
+      <img src="/about/about10.jpg" alt="На какой-то выставке">
+      <div class="slide-caption">На какой-то выставке</div>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="carouselShift('{{ .Get 0 | default "default" }}', -1)">‹</button>
+  <button class="carousel-btn next" onclick="carouselShift('{{ .Get 0 | default "default" }}', 1)">›</button>
+</div>
+
+<script>
+function carouselShift(id, dir) {
+  const slides = document.querySelectorAll(`#carousel-${id} .carousel-slide`);
+  let current = Array.from(slides).findIndex(s => s.classList.contains('active'));
+  
+  slides[current].classList.remove('active');
+  current = (current + dir + slides.length) % slides.length;
+  slides[current].classList.add('active');
+}
+</script>

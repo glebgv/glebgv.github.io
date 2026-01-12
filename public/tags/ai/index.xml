@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ai on GLEBGV: Вещаю о том, что изучаю</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in Ai on GLEBGV: Вещаю о том, что изучаю</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 12 Jan 2026 12:54:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Как я делал кейсы для вайбкодинга</title>
+      <link>http://localhost:1313/post/2026/01/12/%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B0%D0%B9%D0%B1%D0%BA%D0%BE%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0/</link>
+      <pubDate>Mon, 12 Jan 2026 12:54:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/post/2026/01/12/%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B0%D0%B9%D0%B1%D0%BA%D0%BE%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0/</guid>
+      <description>
+        
+          
+            &lt;figure&gt;&lt;img src=&#34;http://localhost:1313/post/2026/01/12/%D0%BA%D0%B0%D0%BA-%D1%8F-%D0%B4%D0%B5%D0%BB%D0%B0%D0%BB-%D0%BA%D0%B5%D0%B9%D1%81%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%B0%D0%B9%D0%B1%D0%BA%D0%BE%D0%B4%D0%B8%D0%BD%D0%B3%D0%B0/vibe.jpg&#34; width=&#34;700&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;А что если допустить, что в будущем в git будет не код, а промпты? Гарантированно точно описывающие что именно надо создать через ИИ. Прикольно?&lt;/p&gt;
+&lt;p&gt;Для кейсов по мастеркласу вайбкодинга мне понадобилось для скриптов каждого кейса создавать промпты, прогнав каждый из которых много раз всегда получаешь гарантированно одинаковый по функционалу код - прямо хэш функция какая то(:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Почему?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На мастер класс придут разные люди с разными навыками. Была задача показать, что решение 3х кейсов с автоматизацией это изи, по силам каждому. Надо было, чтобы используемые промпты гарантированно дали результат.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

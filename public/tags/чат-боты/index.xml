@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Чат-Боты on GLEBGV: Вещаю о том, что изучаю</title>
+    <link>http://localhost:1313/tags/%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B/</link>
+    <description>Recent content in Чат-Боты on GLEBGV: Вещаю о том, что изучаю</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Mon, 12 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%D1%87%D0%B0%D1%82-%D0%B1%D0%BE%D1%82%D1%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Шлюхобот на продажу: восхождение 3го прототипа</title>
+      <link>http://localhost:1313/post/2026/01/12/%D1%88%D0%BB%D1%8E%D1%85%D0%BE%D0%B1%D0%BE%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D1%83-%D0%B2%D0%BE%D1%81%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-3%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%B0/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2026/01/12/%D1%88%D0%BB%D1%8E%D1%85%D0%BE%D0%B1%D0%BE%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D1%83-%D0%B2%D0%BE%D1%81%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-3%D0%B3%D0%BE-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%B0/</guid>
+      <description>
+        
+          
+            &lt;figure&gt;&lt;img src=&#34;http://localhost:1313/post/2026/01/12/%D1%88%D0%BB%D1%8E%D1%85%D0%BE%D0%B1%D0%BE%D1%82-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%B4%D0%B0%D0%B6%D1%83-%D0%B2%D0%BE%D1%81%D1%85%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-3%D1%85-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D1%82%D0%B8%D0%BF%D0%BE%D0%B2/bababot.png&#34; width=&#34;700&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Когда инженер проектирует &lt;strong&gt;будущего ролевого флиртующего чат бота&lt;/strong&gt;, то важно учесть множество деталей:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Качество ответов.&lt;/strong&gt; Это не ветошь бабы Глаши. Ответы должны быть по контексту с множеством не видных на front параметров. С сохранением истории переписки в &lt;strong&gt;summary фактов&lt;/strong&gt;. С &lt;strong&gt;автоинициативной моделью&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ориентация в времени и днях недели.&lt;/strong&gt; В 3 ночи не стоит заявлять боту, что он пьет кофе, такая &amp;ldquo;продуктивность&amp;rdquo; нам ни к чему.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAG.&lt;/strong&gt; Плевать на LLMку, но &lt;strong&gt;раг быть должен&lt;/strong&gt;. Я &lt;strong&gt;аннигелировал 3 прототипа ботов&lt;/strong&gt;, прежде чем это понял. Забегая вперед скажу: даже если у вас &lt;strong&gt;жиденькая LLM&lt;/strong&gt;, но &lt;strong&gt;качественные данные под RAG&lt;/strong&gt;, то ваш бот имеет шансы на успех. &lt;strong&gt;Few shot&lt;/strong&gt; может дать стиль ответа, но не дает полноту личности.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;Людские&amp;rdquo; мелочи.&lt;/strong&gt; Тупняк(&lt;strong&gt;delay&lt;/strong&gt;) перед ответом, вставка &lt;strong&gt;typing(печатает)&lt;/strong&gt;, реакции на сообщения, &lt;strong&gt;reply&lt;/strong&gt; на сообщения пользователя, распознавание голосовух пользователя, отправка предгенерированных фото &lt;strong&gt;сельфи и видео&lt;/strong&gt; - всё это и многое другое полирует качество вашего бота.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Стек&lt;/strong&gt;, конечно же. Какие пакеты, мешки и коробки мы будем юзать, чтобы упаковать ливер нашего бота.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;урок-1-в-котором-выучиваю-новые-нецензурные-слова&#34;&gt;Урок 1, в котором выучиваю новые нецензурные слова&lt;/h2&gt;
+&lt;p&gt;Идет &lt;strong&gt;5 час&lt;/strong&gt;, как я трясу нейронку задавая вопрос вида &lt;strong&gt;&amp;ldquo;проведи анализ кода, найди проблемы и недочеты в архитектуре ответов модели&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
