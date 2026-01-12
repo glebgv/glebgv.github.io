@@ -1,0 +1,5 @@
+baseURL = "https://glebgv.github.io/"
+languageCode = "ru-ru"
+title = "Вещаю о том, что изучаю"
+theme = "hugo-xmag"
+
