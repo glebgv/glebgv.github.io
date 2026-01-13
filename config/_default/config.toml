@@ -27,9 +27,14 @@ enableGitInfo = true
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
-
 [params]
+  # SEO параметры для Open Graph
+  description = "Блог о том, что я изучаю: Python, DevOps, Telegram боты и технологии"
+  author = "GLEBGV"
+  fallBackOgImage = "/logos/logo.png"  # или создай отдельное OG изображение
+  
+  # Существующие параметры
   logo = "logos/logo.png"
   centerLogo = false
   enforceDarkMode = false
-    customCSS = ["css/about-carousel.css", "css/logo.css"]
+  customCSS = ["css/about-carousel.css", "css/logo.css"]
