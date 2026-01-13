@@ -40,3 +40,5 @@ enableGitInfo = true
   customCSS = ["css/about-carousel.css", "css/logo.css", "css/custom-tags.css"]
   customJS = ["js/custom.js"] 
   favicon = "favicon.ico"
+  [params.meta]
+    telegram_site_verification = "8f048a66f3d216"
