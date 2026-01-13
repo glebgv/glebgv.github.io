@@ -38,3 +38,4 @@ enableGitInfo = true
   centerLogo = false
   enforceDarkMode = false
   customCSS = ["css/about-carousel.css", "css/logo.css"]
+  customJS = ["js/custom.js"] 
