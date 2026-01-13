@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .post_tag.button.button_translucent {
+    font-size: 0.75rem !important;  /* Меньший шрифт */
+    padding: 0.25rem 0.5rem !important;  /* Уменьшенный padding */
+    margin: 0.1rem !important;  /* Минимальные отступы */
+    line-height: 1.2 !important;
+  }
+  
+  .post_meta .post_tag {  /* Конкретно для пост-меты */
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+

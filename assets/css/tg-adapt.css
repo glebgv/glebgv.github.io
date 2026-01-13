@@ -1,0 +1,6 @@
+:root {
+  font-size: clamp(14px, 4vw, 16px);
+  padding-bottom: env(safe-area-inset-bottom);
+}
+body { background: var(--tg-theme-bg-color, #fff); }
+
