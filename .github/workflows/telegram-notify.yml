@@ -1,0 +1,46 @@
+name: Telegram Post Notifier
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'content/**/*.md'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install python-frontmatter requests
+      
+      - name: Run Telegram notifier
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          python .github/scripts/telegram_notifier.py
+      
+      - name: Commit published posts state
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .github/published_posts.json
+          git diff --staged --quiet || git commit -m "chore: update published posts state [skip ci]"
+          git push
+
