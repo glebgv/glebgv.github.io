@@ -39,3 +39,4 @@ enableGitInfo = true
   enforceDarkMode = false
   customCSS = ["css/about-carousel.css", "css/logo.css", "css/custom-tags.css"]
   customJS = ["js/custom.js"] 
+  favicon = "favicon.ico"
